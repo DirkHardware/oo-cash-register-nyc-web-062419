@@ -1,7 +1,7 @@
 require 'pry'
 class CashRegister
 
-@@all =[]
+  @@all =[]
 
   def initialize(discount = 0)
     @total = 0
