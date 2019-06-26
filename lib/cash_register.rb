@@ -21,4 +21,5 @@ class CashRegister
     if @employee_discount > 0
       @total -= @employee_discount
       "After the discount, the total comes to #{@total}."
+    end
 end
