@@ -24,7 +24,7 @@ class CashRegister
       @total = @total - @total * @employee_discount / 100.00
       binding.pry
       discount_total = @total.to_f
-      "After the discount, the total comes to #{@total}."
+      "After the discount, the total comes to #{discount_total}."
     end
   end
 end
