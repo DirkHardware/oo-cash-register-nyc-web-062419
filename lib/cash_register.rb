@@ -1,11 +1,10 @@
 require 'pry'
 class CashRegister
 
-  @@all =[]
-
   def initialize(discount = 0)
     @total = 0
     @employee_discount = discount
+    @items = []
   end
 
   def total
