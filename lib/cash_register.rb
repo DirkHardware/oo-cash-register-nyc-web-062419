@@ -22,4 +22,5 @@ class CashRegister
       @total -= @employee_discount
       "After the discount, the total comes to #{@total}."
     end
+  end
 end
