@@ -21,6 +21,7 @@ class CashRegister
     if @employee_discount > 0
       binding.pry
       @total = @total - @employee_discount
+      binding.pry
       "After the discount, the total comes to #{@total}."
     end
   end
