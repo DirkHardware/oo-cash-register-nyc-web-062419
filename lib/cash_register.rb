@@ -38,7 +38,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    difference = @total - @last_total
-    @total - difference
+    @total - @last_transaction
   end
 end
