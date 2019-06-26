@@ -10,5 +10,6 @@ class CashRegister
 
   def total=(arg)
     @total = arg
+  end
 
 end
